@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C BLOG</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1e1e2e;
+            color: #ffffff;
+        }
+        .navbar {
+            background-color: #2c035f;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #333;
+            padding: 15px;
+            position: fixed;
+            height: 100%;
+        }
+        .sidebar a {
+            display: block;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+        .sidebar a:hover {
+            background-color: #575757;
+        }
+        .content {
+            margin-left: 270px;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 50px;
+        }
+        .image-placeholder img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .code-title {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">Learning C programming</div>
+    <div class="container">
+        <div class="sidebar">
+            <a href="#preprocessor">Preprocessor Directives</a>
+            <a href="#tokens">Tokens in C</a>
+            <a href="#formatted_io">Formatted I/O Functions</a>
+            <a href="#unformatted_io">Unformatted I/O Functions</a>
+            <a href="#control_flow">Control Flow</a>
+            <a href="#arrays">Arrays</a>
+            <a href="#array_operations">Array Operations</a>
+            <a href="#transpose">Transpose</a>
+            <a href="#pattern_printing">Pattern Printing</a>
+            <a href="#string_handling">String Handling Functions</a>
+        </div>
+        <div class="content">
+            <section id="preprocessor">
+                <h2>Preprocessor Directives</h2>
+                <p>Preprocessor directives in C are commands that begin with # and are processed before compilation. They handle tasks such as including header files, defining constants, and conditional compilation.</p>
+                <div class="code-title">CODE:</div>
+                <div class="image-placeholder"><img src="prog11.png" alt="Program Image"></div>
+                <div class="code-title">OUTPUT:</div>
+                <div class="image-placeholder"><img src="out11.png" alt="Output Image"></div>
+            </section>
+            <section id="tokens">
+                <h2>Tokens in C</h2>
+                <p>Tokens are the smallest units of a C program. These include keywords, identifiers, constants, strings, and special symbols. Understanding tokens is crucial for writing efficient code.</p>
+                <div class="code-title">CODE:</div>
+                <div class="image-placeholder"><img src="prog2.png" alt="Program Image"></div>
+                <div class="code-title">OUTPUT:</div>
+                <div class="image-placeholder"><img src="out2.png" alt="Output Image"></div>
+            </section>
+            <section id="formatted_io">
+                <h2>Formatted I/O Functions</h2>
+                <p>Formatted input/output functions like printf() and scanf() allow structured data to be read and displayed in a specific format.</p>
+                <div class="code-title">CODE:</div>
+                <div class="image-placeholder"><img src="prog3.png" alt="Program Image"></div>
+                <div class="code-title">OUTPUT:</div>
+                <div class="image-placeholder"><img src="out3.png" alt="Output Image"></div>
+            </section>
+            <section id="unformatted_io">
+                <h2>Unformatted I/O Functions</h2>
+                <p>Unformatted input/output functions such as getchar() and putchar() operate on character streams without any formatting.</p>
+                <div class="code-title">CODE:</div>
+                <div class="image-placeholder"><img src="prog4.png" alt="Program Image"></div>
+                <div class="code-title">OUTPUT:</div>
+                <div class="image-placeholder"><img src="out4.png" alt="Output Image"></div>
+            </section>
+            <section id="control_flow">
+                <h2>Control Flow</h2>
+                <p>Control flow statements like loops and conditionals control the execution sequence of a program, making decision-making possible.</p>
+                <div class="code-title">CODE:</div>
+                <div class="image-placeholder"><img src="prog5.png" alt="Program Image"></div>
+                <div class="code-title">OUTPUT:</div>
+                <div class="image-placeholder"><img src="out5.png" alt="Output Image"></div>
+            </section>
+            <section id="arrays">
+                <h2>Arrays</h2>
+                <p>Arrays in C allow storing multiple values of the same type in a contiguous memory location, which is useful for handling large data sets efficiently.</p>
+                <div class="code-title">CODE:</div>
+                <div class="image-placeholder"><img src="prog6.png" alt="Program Image"></div>
+                <div class="code-title">OUTPUT:</div>
+                <div class="image-placeholder"><img src="out6.png" alt="Output Image"></div>
+            </section>
+            <section id="array_operations">
+                <h2>Array Operations</h2>
+                <p>Array operations include insertion, deletion, searching, and sorting, which are fundamental for data manipulation.</p>
+                <div class="code-title">CODE:</div>
+                <div class="image-placeholder"><img src="prog7.png" alt="Program Image"></div>
+                <div class="code-title">OUTPUT:</div>
+                <div class="image-placeholder"><img src="out7.png" alt="Output Image"></div>
+            </section>
+            <section id="transpose">
+                <h2>Transpose</h2>
+                <p>Matrix transposition involves flipping a matrix over its diagonal, swapping rows with columns.</p>
+                <div class="code-title">CODE:</div>
+                <div class="image-placeholder"><img src="prog8.png" alt="Program Image"></div>
+                <div class="code-title">OUTPUT:</div>
+                <div class="image-placeholder"><img src="out8.png" alt="Output Image"></div>
+            </section>
+            <section id="pattern_printing">
+                <h2>Pattern Printing</h2>
+                <p>Pattern printing in C involves using nested loops to print various patterns, often used in competitive programming.</p>
+                <div class="code-title">CODE:</div>
+                <div class="image-placeholder"><img src="prog9.png" alt="Program Image"></div>
+                <div class="code-title">OUTPUT:</div>
+                <div class="image-placeholder"><img src="out9.png" alt="Output Image"></div>
+            </section>
+            <section id="string_handling">
+                <h2>String Handling Functions</h2>
+                <p>String handling functions like strcpy(), strcat(), and strcmp() facilitate efficient manipulation of character arrays.</p>
+                <div class="code-title">CODE:</div>
+                <div class="image-placeholder"><img src="prog10.png" alt="Program Image"></div>
+                <div class="code-title">OUTPUT:</div>
+                <div class="image-placeholder"><img src="out10.png" alt="Output Image"></div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
